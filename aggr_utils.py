@@ -1,12 +1,14 @@
 import platform
 import os
 import shutil
+import tensorflow as tf
 
 
 def print_system_info():
     """Вывод информации о системе"""
     print(f"Operating System: {platform.platform()}")
     print(f"Python version: {platform.python_version()}")
+    print(f"Tensorflow version: {tf.__version__}")
 
 
 def ensure_dir_exists(dir_path):
