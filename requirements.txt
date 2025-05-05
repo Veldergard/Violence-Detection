@@ -1,4 +1,4 @@
-imgaug=="git+https://github.com/imaug/imaug.git
+#imgaug==git+https://github.com/imaug/imaug.git
 tensorflow==2.19
 scikit-learn==1.6.1
 tqdm==4.67.1
